@@ -79,3 +79,35 @@
 ```
 
 - 修改时间：2026-11-19 14:06
+
+---
+
+## 记录 4
+
+- 接口路径：`/api/news`
+- HTTP 方法：GET
+- 请求参数：无（示例：`GET http://localhost:730/api/news`）
+- 响应格式（JSON 示例）：
+
+```json
+{
+  "code": 0,
+  "msg": "获取科技新闻列表成功",
+  "data": {
+    "total": 8,
+    "list": [
+      {
+        "yyt_id": 1,
+        "yyt_title": "国产大模型发布新一代多模态版本，推理成本下降四成",
+        "yyt_category": "人工智能",
+        "yyt_source": "科技日报",
+        "yyt_publish_date": "2026-11-18",
+        "yyt_summary": "国内团队发布新一代多模态大模型，在图像理解与长文本处理上均有提升，同时推理成本较上一代下降约四成。",
+        "yyt_link": "https://example.com/news/1001"
+      }
+    ]
+  }
+}
+```
+
+- 修改时间：2026-11-19 14:10
