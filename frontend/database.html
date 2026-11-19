@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <!--
+    姓名：闫雨桐 | 学号：24001010730 | 时间：2026-11-19 | 大模型：Tencent Hunyuan Hy
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据库连接测试 · 知乎的模仿与制作</title>
+  <link rel="stylesheet" href="css/yyt_style.css">
+</head>
+<body>
+  <canvas id="yytCanvas" class="yyt-canvas" aria-hidden="true"></canvas>
+
+  <div class="yyt-page">
+    <header class="yyt-header">
+      <div class="yyt-brand">
+        <div class="yyt-logo">知</div>
+        <div class="yyt-brand-text">
+          <h1 class="yyt-title">数据库连接测试</h1>
+          <p class="yyt-subtitle">MySQL Connection Test</p>
+        </div>
+      </div>
+      <div class="yyt-meta">
+        <a class="yyt-meta-item yyt-link" href="index.html">返回首页</a>
+        <span class="yyt-meta-item yyt-badge">项目类别：模仿</span>
+      </div>
+    </header>
+
+    <main class="yyt-main">
+      <section class="yyt-form-card">
+        <h2 class="yyt-form-title">测试 MySQL 连接</h2>
+        <p class="yyt-form-desc">输入数据库用户名与密码，验证后端能否成功连接到 MySQL。</p>
+
+        <form id="yytDbForm" class="yyt-form" novalidate>
+          <div class="yyt-field">
+            <label class="yyt-label" for="yytUsername">用户名</label>
+            <input class="yyt-input" id="yytUsername" name="username" type="text" value="root" autocomplete="off">
+          </div>
+          <div class="yyt-field">
+            <label class="yyt-label" for="yytPassword">密码</label>
+            <input class="yyt-input" id="yytPassword" name="password" type="password" value="yyt1314521" autocomplete="off">
+          </div>
+          <button class="yyt-button" id="yytConnectBtn" type="submit">连接数据库</button>
+        </form>
+
+        <div id="yytResult" class="yyt-result" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="yyt-footer">
+      <span>闫雨桐 · 24001010730</span>
+      <span>知乎的模仿与制作 · 模仿类项目</span>
+    </footer>
+  </div>
+
+  <script src="js/yyt_main.js"></script>
+  <script src="js/yyt_database.js"></script>
+</body>
+</html>

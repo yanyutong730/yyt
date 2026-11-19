@@ -223,6 +223,10 @@ a.yyt-card:hover {
   background: linear-gradient(135deg, #60a5fa, var(--yyt-blue));
 }
 
+.yyt-icon-db {
+  background: linear-gradient(135deg, #34d399, #059669);
+}
+
 .yyt-icon-soon {
   background: linear-gradient(135deg, #cbd5e1, #94a3b8);
 }
@@ -255,6 +259,120 @@ a.yyt-card:hover {
 
 .yyt-card-empty .yyt-card-arrow {
   color: #94a3b8;
+}
+
+.yyt-form-card {
+  padding: 34px 36px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.92), rgba(235, 243, 255, 0.78));
+  border: 1px solid rgba(37, 99, 235, 0.1);
+  box-shadow: 0 10px 36px rgba(30, 64, 175, 0.06);
+}
+
+.yyt-form-title {
+  margin: 0 0 8px;
+  font-size: 23px;
+}
+
+.yyt-form-desc {
+  margin: 0 0 26px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--yyt-muted);
+}
+
+.yyt-form {
+  display: grid;
+  gap: 18px;
+  max-width: 460px;
+}
+
+.yyt-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.yyt-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--yyt-ink);
+}
+
+.yyt-input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--yyt-ink);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--yyt-line);
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.yyt-input:focus {
+  border-color: var(--yyt-blue);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.yyt-button {
+  margin-top: 6px;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  color: #fff;
+  background: linear-gradient(135deg, var(--yyt-blue), var(--yyt-blue-deep));
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.24);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.yyt-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.3);
+}
+
+.yyt-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.yyt-result {
+  display: none;
+  margin-top: 22px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  word-break: break-all;
+}
+
+.yyt-result-success {
+  display: block;
+  color: #065f46;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.yyt-result-error {
+  display: block;
+  color: #991b1b;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.32);
+}
+
+.yyt-link {
+  text-decoration: none;
+  color: var(--yyt-blue-deep);
+}
+
+.yyt-link:hover {
+  text-decoration: underline;
 }
 
 .yyt-footer {

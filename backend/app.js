@@ -7,6 +7,7 @@ const path = require('path');
 const express = require('express');
 const cors = require('cors');
 const yytHomeRoutes = require('./routes/yyt_homeRoutes');
+const yytDbRoutes = require('./routes/yyt_dbRoutes');
 const yytCheckDb = require('./config/yyt_db').yytCheckDb;
 
 const yytApp = express();
@@ -19,6 +20,7 @@ yytApp.use(express.urlencoded({ extended: true }));
 
 // 所有接口统一以 /api/ 为前缀
 yytApp.use('/api', yytHomeRoutes);
+yytApp.use('/api', yytDbRoutes);
 
 // 托管前端目录
 yytApp.use(express.static(path.join(__dirname, '..', 'frontend')));

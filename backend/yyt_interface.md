@@ -48,3 +48,34 @@
 ```
 
 - 修改时间：2026-11-19 13:53
+
+---
+
+## 记录 3
+
+- 接口路径：`/api/db/test`
+- HTTP 方法：POST
+- 请求参数：JSON（示例：`{"username":"root","password":"yyt1314521"}`）
+- 响应格式（JSON 示例）：
+
+成功：
+
+```json
+{
+  "code": 0,
+  "msg": "数据库连接成功",
+  "data": { "host": "localhost", "database": "yyt_zhihu", "user": "root" }
+}
+```
+
+失败：
+
+```json
+{
+  "code": 1,
+  "msg": "数据库连接失败：Access denied for user 'root'@'localhost' (using password: YES)",
+  "data": {}
+}
+```
+
+- 修改时间：2026-11-19 14:06
