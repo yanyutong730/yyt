@@ -111,3 +111,35 @@
 ```
 
 - 修改时间：2026-11-19 14:10
+
+---
+
+## 记录 5
+
+- 接口路径：`/api/gallery`
+- HTTP 方法：GET
+- 请求参数：无（示例：`GET http://localhost:730/api/gallery`）
+- 响应格式（JSON 示例）：
+
+```json
+{
+  "code": 0,
+  "msg": "获取图文列表成功",
+  "data": {
+    "total": 8,
+    "list": [
+      {
+        "yyt_id": 1,
+        "yyt_title": "新款折叠屏手机发布，屏幕折痕进一步减轻",
+        "yyt_category": "智能终端",
+        "yyt_image": "/images/yyt_gallery_phone.svg",
+        "yyt_description": "新一代折叠屏手机采用改进铰链结构，屏幕折痕明显减轻，整机厚度与重量同步下降。",
+        "yyt_source": "数字前沿",
+        "yyt_publish_date": "2026-11-18"
+      }
+    ]
+  }
+}
+```
+
+- 修改时间：2026-11-19 14:15

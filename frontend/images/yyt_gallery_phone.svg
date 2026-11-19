@@ -1,0 +1,19 @@
+<!-- 姓名：闫雨桐 | 学号：24001010730 | 时间：2026-11-19 | 大模型：Tencent Hunyuan Hy -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="yytBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/><stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="yytScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dbeafe"/><stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#yytBg)"/>
+  <circle cx="130" cy="80" r="150" fill="#fff" opacity="0.07"/>
+  <circle cx="720" cy="450" r="190" fill="#fff" opacity="0.06"/>
+  <rect x="305" y="60" width="190" height="380" rx="30" fill="#0f172a"/>
+  <rect x="317" y="76" width="166" height="348" rx="20" fill="url(#yytScreen)"/>
+  <rect x="365" y="86" width="70" height="10" rx="5" fill="#0f172a"/>
+  <circle cx="400" cy="400" r="13" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <text x="40" y="460" font-family="Microsoft YaHei,sans-serif" font-size="36" font-weight="bold" fill="#fff" opacity="0.92">智能手机</text>
+</svg>
