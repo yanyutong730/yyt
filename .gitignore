@@ -1,0 +1,11 @@
+# 依赖目录
+node_modules/
+
+# 环境变量（数据库凭据等敏感信息）
+.env
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
