@@ -123,3 +123,16 @@ code=0 表示成功，非 0 表示失败
 ```
 
 - 大模型名称：Tencent Hunyuan Hy
+
+---
+
+## 记录 7
+
+- 时间：2026-11-19 14:48
+- 提示词全文：
+
+```
+创建技能 skill：提交到 GitHub，将本项目提交 commit 并 push 到 https://github.com/yanyutong730/yyt.git 使用已设置公钥
+```
+
+- 大模型名称：Tencent Hunyuan Hy
